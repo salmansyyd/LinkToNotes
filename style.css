@@ -90,13 +90,16 @@ nav .navbar{
         font-size: .9rem;
         /* background-color: red; */
     }
-
+    .main-content h1 {
+        text-align: center;
+    }
     .main-content_wrapper{
         margin-top: 3rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1rem;
+        justify-content: center;
     }
 
     .main-content_wrapper a {
